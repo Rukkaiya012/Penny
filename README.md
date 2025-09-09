@@ -15,9 +15,14 @@ Backend: Firebase (Authentication + Firestore Database)
 📂 Project Structure
 Penny/
 ├── app/            # Expo Router navigation + screens
+├── assets/         # Fonts, images, icons, etc.
 ├── components/     # Reusable UI components
 ├── constants/      # Theme, colors, data constants
+├── contexts/       # Global context providers (Auth, Theme, etc.)
+├── hooks/          # Custom React hooks
 ├── services/       # Firebase config and API logic
+├── types/          # TypeScript types and interfaces
+├── utils/          # Helper functions and utilities
 └── README.md       # Project overview
 
 🚀 Getting Started
